@@ -1,0 +1,38 @@
+body {
+    background-color: #e1eef5;
+}
+
+.about-me-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-me-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.about-me-text {
+    flex: 1;
+    /* Allows the text to take up the remaining space */
+    text-align: left;
+    /* Keeps text aligned to the left */
+    font-size: 18px;
+    line-height: 1.6;
+}
